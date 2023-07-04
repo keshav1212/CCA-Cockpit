@@ -1,0 +1,100 @@
+{
+  "signup": [
+    {
+      "fullname": "keshav sharma",
+      "email": "KESHAV.B.KESHAV@CAPGEMINI.COM",
+      "pwd": "11111111",
+      "id": 1
+    },
+    {
+      "fullname": "Akshay",
+      "email": "akshay@gmail.com",
+      "pwd": "12121212",
+      "id": 2
+    },
+    {
+      "fullname": "Akshay",
+      "email": "asfa@gmail.com",
+      "pwd": "12345678",
+      "id": 3
+    },
+    {
+      "fullname": "keshav sharma",
+      "email": "KESHAV.B.KESHAV@CAPGEMINI.COM",
+      "pwd": "121213131321",
+      "id": 4
+    },
+    {
+      "fullname": "keshav sharma",
+      "email": "KESHAV.B.KESHAV@CAPGEMINI.COM",
+      "pwd": "11111111",
+      "rpwd": "11111111",
+      "id": 5
+    },
+    {
+      "fullname": "keshav sharma",
+      "email": "KESHAV.B.KESHAV@CAPGEMINI.COM",
+      "pwd": "11111111",
+      "rpwd": "",
+      "id": 6
+    },
+    {
+      "fullname": "keshav sharma",
+      "email": "KESHAV.B.KESHAV@CAPGEMINI.COM",
+      "pwd": "11111111",
+      "rpwd": "22222222",
+      "id": 7
+    },
+    {
+      "fullname": "keshav sharma",
+      "email": "KESHAV.B.KESHAV@CAPGEMINI.COM",
+      "pwd": "11111111",
+      "rpwd": "11111111",
+      "id": 8
+    },
+    {
+      "fullname": "keshav sharma",
+      "email": "KESHAV.B.KESHAV@CAPGEMINI.COM",
+      "pwd": "11111111",
+      "rpwd": "11111111",
+      "id": 9
+    },
+    {
+      "fullname": "Ashwani Tanwar",
+      "email": "ashwani@gmail.com",
+      "pwd": "12345678",
+      "rpwd": "12345678",
+      "id": 10
+    },
+    {
+      "fullname": "Tanuahree Rathod",
+      "email": "tanu@gmail.com",
+      "pwd": "09876543",
+      "rpwd": "09876543",
+      "id": 11
+    },
+    {
+      "fullname": "Anmol Sharma",
+      "email": "anmol@gmail.com",
+      "pwd": "12121212",
+      "rpwd": "12121212",
+      "id": 12
+    },
+    {
+      "fullname": "keshav sharma",
+      "email": "KESHAV.B.KESHAV@CAPGEMINI.COM",
+      "pwd": "12312312",
+      "rpwd": "12312312",
+      "id": 13
+    },
+    {
+      "fullname": "Ashish",
+      "email": "ashish@gmail.com",
+      "username": "Ashish123",
+      "pwd": "09090909",
+      "rpwd": "09090909",
+      "id": 14
+    }
+  ],
+  "login": []
+}

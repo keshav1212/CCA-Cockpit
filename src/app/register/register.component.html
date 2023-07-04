@@ -1,0 +1,76 @@
+<section>
+  <!-- <div class="mask d-flex align-items-center  gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;"> -->
+            <div class="form-container">
+              <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+
+              <form [formGroup]="registerForm" (ngSubmit)="registerSubmitted()">
+
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="fullname">Full Name</label>
+                  <input type="text" id="fullname" class="form-control form-control-lg" formControlName="fullname" />
+                  
+                  <div class="form-text text-danger" *ngIf="FullName.errors?.['required'] && (FullName.touched || FullName.dirty)">Full Name is required.</div>
+                  <div class="form-text text-danger" *ngIf="FullName.errors?.['minlength'] && (FullName.touched || FullName.dirty)">Full Name is too short.</div>
+                  <div class="form-text text-danger" *ngIf="FullName.errors?.['pattern'] && (FullName.touched || FullName.dirty)">Should start with an alphabet.</div>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="email">Email</label>
+                  <input type="email" id="email" class="form-control form-control-lg" formControlName="email" />
+                  
+                  <div class="form-text text-danger" *ngIf="Email.errors?.['required'] && (Email.touched || FullName.dirty)">Email is required.</div>
+                  <div class="form-text text-danger" *ngIf="Email.errors?.['email'] && (Email.touched || Email.dirty)">Email is invalid.</div>
+                </div>
+
+                <!-- <div class="form-outline mb-4">
+                  <label class="form-label" for="username">Username</label>
+                  <input type="text" id="username" class="form-control form-control-lg" formControlName="username" />
+                  
+                  <div class="form-text text-danger" *ngIf="Username.errors?.['required'] && (Username.touched || Username.dirty)">Username is required.</div>
+                </div> -->
+
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="pwd">Password</label>
+                  <input type="password" id="pwd" class="form-control form-control-lg" formControlName="pwd" />
+                  
+                  <div class="form-text text-danger" *ngIf="PWD.errors?.['required'] && (PWD.touched || PWD.dirty)">Password is required.</div>
+                  <div class="form-text text-danger" *ngIf="PWD.errors?.['minlength'] || PWD.errors?.['maxlength'] && (PWD.touched || PWD.dirty)">Password should be atleast 8 and maximum 15 characters long.</div>
+                  
+                </div>
+
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="rpwd">Repeat your password</label>
+                  <input type="password" id="rpwd" class="form-control form-control-lg" formControlName="rpwd" />
+                  
+                  <div class="form-text text-danger" [ngStyle]="{'display':repeatPass}">Passwords do not match.</div>
+                </div>
+
+                <div class="form-check d-flex justify-content-center mb-5">
+                  <label class="form-check-label" for="form2Example3g"></label>
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
+                  
+                    I agree all statements in <a href="#!" class="text-body"><u style="color: #fff;">Terms of service</u></a>
+                  
+                </div>
+
+                <div class="control d-flex justify-content-center">
+                  <input type="submit" value="Register"  [disabled]="registerForm.invalid"  class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">
+                  
+                </div>
+                
+                <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!"
+                    class="fw-bold text-body"><u style="color: #fff;">Login here</u></a></p>
+
+              </form>
+
+            </div>
+          <!-- </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</section>

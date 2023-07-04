@@ -1,0 +1,67 @@
+
+<div class="main-container">
+  <div class="logo-container">
+      <img class="logo" src="assets/img/cockpit.png" alt="">
+    <div class="text-container">
+      <h1 class="heading">CCA-Cockpit</h1>
+      <p class="text">powered by ETAP</p>
+    </div>
+  
+  </div>
+
+<div class="container">
+  <div class="center">
+    
+    <form [formGroup]="loginForm" (ngSubmit)="loginSubmitted()">
+
+      <div class="form-outline mb-4"> 
+        <label class="form-label" for="email">Email address</label> 
+        <input type="email" class="form-control" id="email" class="form-control" formControlName="email" />
+        
+        <div class="form-text text-danger" *ngIf="Email.errors?.['required'] && (Email.dirty || Email.touched)">Email
+          is required.</div>
+        <div class="form-text text-danger" *ngIf="Email.errors?.['email'] && (Email.dirty || Email.touched)">Email is
+          invalid.</div>
+      </div>
+
+      <div class="form-outline mb-4">
+        <label class="form-label" for="pwd">Password</label>
+        <input type="password" id="pwd" class="form-control" formControlName="pwd" />
+        
+        <div class="form-text text-danger" *ngIf="PWD.errors?.['required'] && (PWD.dirty || PWD.touched)">Password is
+          required.</div>
+        <div class="form-text text-danger"
+          *ngIf="PWD.errors?.['minlength'] || PWD.errors?.['maxlength'] && (PWD.dirty || PWD.touched)">Password should
+          be minimum 8 and maximum 15 characters long.</div>
+      </div>
+    </form>
+
+
+  <div class="row mb-4">
+    <div class="col d-flex justify-content-center">
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="form2" checked />
+        <label class="form-check-label" for="form2"> Remember me </label>
+      </div>
+    </div>
+
+    <div class="col">
+      <a>Forgot password?</a>
+    </div>
+  </div>
+<div class="control">
+  <input routerLink="/dashboard1"  value="Sign In" type="submit" [disabled]="loginForm.invalid" >
+</div>
+  <div class="text-center">
+    <p>Not a member? <a style="color: #fff;" routerLink="/register">Register</a></p>
+  </div>
+
+
+  </div>
+</div>
+
+
+<div class="small-text">Capgemini Public</div>
+
+</div>

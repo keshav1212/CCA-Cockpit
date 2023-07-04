@@ -1,0 +1,121 @@
+/* .back-button{
+    padding-top: 10px;
+}
+/* .bilable-fresher{
+    display: flex;
+} */ 
+/* .billable-text{
+    display: flex;
+} */
+/* .mu{
+    display: flex;
+    background-color: blue;
+    color: white;
+} */
+/* .icons{
+    display: flex;
+    justify-content: right !important;
+
+} */
+/* .rights{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-left: 80vh;
+} */
+
+
+/* billable-text{
+    display: flex;
+    
+} */
+/* .calendar .chart{
+    position: absolute !important;
+    top: 0;
+    right: 0;
+} */
+/* .main-container{
+    display: flex;
+} */
+/* .billable-text{
+    
+    justify-content: flex-start !important;
+    align-items: center !important;
+} */
+/* .billable{
+    margin-right: 10px !important;
+} */
+/* .right{
+    display: flex;
+    justify-content: space-between;
+} */
+.back-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    width: 200%;
+    height: 25px;
+    padding: 20px 20px;
+    margin-left: 20px;
+    background-color: rgb(1, 38, 69);
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 5px 5px 5px #939393;
+    align-items: center;  
+}
+.container .left{
+    font-weight: bold;
+      font-size: 16px;
+      top: 5px;
+      text-align: center;
+}
+.billable{
+    color: cornflowerblue;
+}
+.btn{
+    background: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+}
+.container .right{
+    display: flex;
+      align-items: center;
+      font-weight: bold;
+      
+}
+.container .right .chart{
+    width: 50px;
+        height: 50px;
+        border-radius: 40%;
+        /* border: 2px solid #fff; */
+        /* background-color: rgb(131, 37, 41); */
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+}
+/* .expansion {
+    width: 100%;
+}
+.cell{
+    margin-left: 50px;
+} */
+
+.display{
+    margin-top: 10px;
+    overflow-y: auto;
+    height: 350px;
+    width: 218%;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+    .icon{
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+app-data-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black;
+    margin: 1rem auto; */
+    padding-left: 20%;
+    padding-top: 30px;
+    width: 410px;
+}

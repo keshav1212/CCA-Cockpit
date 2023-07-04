@@ -1,0 +1,74 @@
+<div class="back-button">
+    <a routerLink="/dashboard1" style="text-decoration: none; color: cornflowerblue;">Back</a>
+</div>
+<!-- <div class="main-container">
+
+    <div class="billable-text">
+
+        <a class="billable" href="" style="text-decoration: none;">% Billable Fresher<mat-icon>expand_more</mat-icon>
+            &nbsp;&nbsp;</a>
+
+        <button class="btn btn-primary"> All MU's<mat-icon>expand_more</mat-icon></button>
+
+    </div>
+    <div class="right">
+        <mat-icon class="calendar">calendar_today</mat-icon>
+        <mat-icon class="chart"> show_chart</mat-icon>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<app-data-table></app-data-table>
+
+
+
+<div class="rights">&copy;Capgemini 2022. All rights reserved.</div> -->
+
+
+<div class="container">
+    <div class="left">
+        % Billable Fresher<button class="btn"><mat-icon>expand_more</mat-icon></button>
+            &nbsp;&nbsp;
+            All MU's<button class="btn" (click)="createComponent(componentNames.datatable)" style="text-decoration: none;"> <mat-icon>expand_more</mat-icon></button>
+    </div>
+    <div class="right">
+        <button class="icon" (click)="openCalendar()"><mat-icon class="calendar">calendar_today</mat-icon></button>
+        <input #hiddenInput style="display: none;" matInput [matDatepicker]="picker" placeholder="Choose a date">
+        <mat-datepicker #picker></mat-datepicker>
+        <button class="icon"><mat-icon class="chart"> show_chart</mat-icon></button>
+    </div>
+</div>
+
+<div class="display black-border">
+    <ng-container #container>
+    </ng-container>
+</div>
+<!-- <app-data-table></app-data-table> -->
+<!-- <div class="cell">
+<mat-accordion class="expansion" multi>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                All MU's
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <app-data-table></app-data-table>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                %Billable Fresher
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        
+    </mat-expansion-panel>
+</mat-accordion>
+</div> -->

@@ -1,0 +1,127 @@
+
+
+.main-container{
+    /* background-color: aliceblue; */
+    color: #fff;
+    font-family: "open Sans";
+    height: 97vh;
+    width: 100%;
+    background-size: cover;
+    background: url("https://images.pexels.com/photos/459277/pexels-photo-459277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center center;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 40px; */
+    text-align: center;
+    /* overflow-x: hidden; */
+    overflow-y: hidden;
+}
+.logo{
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.text{
+    margin-top: 8px;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+.login-button{
+    /* margin-left: 150px;
+    margin-top: 50px; */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: gray;
+  
+    border: solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.login-button:hover{
+    background-color: #0056b3;
+}
+.small-text{
+    /* position: relative; */
+    margin-top: 140px;
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    /* margin-top: 40px; */
+}
+.container{
+    margin-top: 70px;
+    height: 200px;
+  /* position: relative; */
+  background: linear-gradient(rgba(0,0,0,0.3));
+    
+ 
+}
+.center {
+    margin-top: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+  }
+
+  .form{
+    width: 500px;  
+  }
+/* 
+section{
+    margin-left: 25%;
+    height: 50vh;
+    width: 48%;
+    background-size: cover;
+    background: url("https://images.pexels.com/photos/683402/pexels-photo-683402.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center center;
+} */
+.form-outline input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+.control input[type="submit"]{
+    width: 100%;
+    background: crimson;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .8;
+    transition: opacity .3s ease;
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+.col a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .6;
+    transition: opacity .3s ease;
+}
+.col a:hover{
+    opacity: 1;
+}

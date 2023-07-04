@@ -1,0 +1,56 @@
+<div class="mat-elevation-z8">
+  <table mat-table class="full-width-table" matSort aria-label="Elements">
+    <!-- Id Column -->
+    <ng-container matColumnDef="MUs">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>MUs</th>
+      <td mat-cell *matCellDef="let row"><button><mat-icon>expand_more</mat-icon></button>{{row.MUs}}</td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="Account">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Account</th>
+      <td mat-cell *matCellDef="let row">{{row.Account}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Current">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Current</th>
+      <td mat-cell *matCellDef="let row">{{row.Current}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Jan">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Jan</th>
+      <td mat-cell *matCellDef="let row">{{row.Jan}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Feb">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Feb</th>
+      <td mat-cell *matCellDef="let row">{{row.Feb}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Mar">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Mar</th>
+      <td mat-cell *matCellDef="let row">{{row.Mar}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Apr">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Apr</th>
+      <td mat-cell *matCellDef="let row">{{row.Apr}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="May">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>May</th>
+      <td mat-cell *matCellDef="let row">{{row.May}}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator #paginator
+      [length]="dataSource.data.length"
+      [pageIndex]="0"
+      [pageSize]="10"
+      [pageSizeOptions]="[5, 10, 20]"
+      aria-label="Select page">
+  </mat-paginator>
+</div>

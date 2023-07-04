@@ -1,0 +1,176 @@
+<div class="center">
+    <!-- <div> -->
+        <h1 style="color: white; font-weight: bolder;">SCORECARD 2022</h1>
+    <!-- </div> -->
+</div>
+<div class="back-button">
+    <a routerLink="/dashboard" style="text-decoration: none; color: cornflowerblue;">Back</a>
+</div>
+<div class="search input-group rounded">
+    <input style="height: 25px;" type="text"   class="form-control rounded"  placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+    <span class="input-group-text border-0" id="search-addon">
+      <i class="fas fa-search"></i>
+    </span>
+  </div>
+  <!-- <div *ngFor="let element of getFilteredElements()">
+    {{element.innerHTML}}
+  </div> -->
+<div class="middle-section">
+    <!-- <div class="widget left">
+        <mat-icon>supervisor_account</mat-icon>
+      <h1 style="color: black;">276(0)</h1>
+      <span>Young Professionals</span><br>
+      <button style="margin-top: 10px;"><mat-icon style="color: cadetblue;">arrow_forward</mat-icon></button>
+    </div>
+    <div class="widget middle1">
+        <mat-icon>how_to_reg</mat-icon>
+        <h1 style="color: black;">160(0)</h1>
+        <span>Active Younge Professionals</span><br>
+        <button style="margin-top: 10px;"><mat-icon style="color: chocolate;">arrow_forward</mat-icon></button>
+    </div>
+    <div class="widget middle2">
+        <mat-icon>center_focus_strong</mat-icon>
+        <h1 style="color: black;">116(0)</h1>
+        <span>Deployed Younge Professionals</span><br>
+        <button style="margin-top: 10px;"><mat-icon style="color: crimson;">arrow_forward</mat-icon></button>
+    </div>
+    <div class="widget right">
+        <mat-icon> highlight</mat-icon>
+        <h1 style="color: black;">25(0)</h1>
+        <span>Solutions</span>
+        <span>Created/Matured</span><br>
+        <button style="margin-top: 10px;"><mat-icon style="color: darkcyan;">arrow_forward</mat-icon></button>
+    </div> -->
+    
+  </div>
+  <!-- <div *ngFor="let item for filteredItems; let i=index" [ngClass]="getDivClass(i)">
+    <mat-icon>{{getMatIcon(i)}}</mat-icon>
+  <h1>{{item.title}}</h1>
+  <span>{{item.subtitle}}</span><br>
+  <h4>{{item.heading}}</h4>
+  <p>{{item.description}}</p>
+  <button style="margin-top: 10px;"><mat-icon [color]="getButtonColor(i)">arrow_forward</mat-icon></button>
+</div> -->
+
+  <div class="bottom-section">
+    <div class="widget left">
+        <mat-icon>calendar_today</mat-icon>
+        <h1 style="color: black;">2518(0)</h1>
+        Efforts in Pds<br>
+        <span><p>(ETAP)</p></span><br>
+        <button style="margin-top: 10px;"><mat-icon style="color: darkgreen;">arrow_forward</mat-icon></button>
+    </div>
+    <div class="widget middle1">
+        <mat-icon>calendar_today</mat-icon>
+        <h1 style="color: black; ">MALS-340(0)</h1>
+        <h4 style="color: black; margin: 0 0 1px;">CPRS-77(0)</h4>
+        <h4 style="color: black; margin: 0 0 1px;">EUC-0</h4>
+        <h4 style="color: black; margin: 0 0 1px;">TMT-0</h4>
+        Efforts in Pds <br>
+        <button style="margin-top: 10px;"><mat-icon style="color: darkorchid;">arrow_forward</mat-icon></button>
+    </div>
+    <div class="widget middle2">
+        <mat-icon>timer</mat-icon>
+        <h1 style="color: black;">131d(0)</h1>
+        <span>Avg Deployment Time</span>
+        <span><p>(ETAP Core+MG)</p></span><br>
+        <button style="margin-top: 10px;"><mat-icon style="color: indianred;">arrow_forward</mat-icon></button>
+    </div>
+    <div class="widget right">
+        <mat-icon>timer</mat-icon>
+        <h1 style="color: black;">119d(0)</h1>
+        <span>Avg Deployment Time</span>
+        <span><p>(ETAP MG)</p></span><br>
+        <button style="margin-top: 10px;"><mat-icon style="color: lightcoral;">arrow_forward</mat-icon></button>
+    </div>
+  </div>
+
+  <!-- <div class="cards">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title><mat-icon>supervisor_account</mat-icon></mat-card-title>
+      <mat-card-subtitle><h1 style="color: black;">276(0)</h1></mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Young Professionals</p>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>This card indeterminates progress bar.</p>
+          
+        </mat-card-content>
+        </mat-card>
+
+        <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title>Shiba Inu</mat-card-title>
+              <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p>This card indeterminates progress bar.</p>
+              
+            </mat-card-content>
+            </mat-card>
+
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Shiba Inu</mat-card-title>
+                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <p>This card indeterminates progress bar.</p>
+                  
+                </mat-card-content>
+                </mat-card>
+  </div>
+                    <br>
+<div class="cards1">
+                <mat-card class="example-card">
+                    <mat-card-header>
+                      <mat-card-title>Shiba Inu</mat-card-title>
+                      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                      <p>This card indeterminates progress bar.</p>
+                      </mat-card-content>
+                    </mat-card>
+                
+                    <mat-card class="example-card">
+                        <mat-card-header>
+                          <mat-card-title>Shiba Inu</mat-card-title>
+                          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                        </mat-card-header>
+                        <mat-card-content>
+                          <p>This card indeterminates progress bar.</p>
+                          
+                        </mat-card-content>
+                        </mat-card>
+                
+                        <mat-card class="example-card">
+                            <mat-card-header>
+                              <mat-card-title>Shiba Inu</mat-card-title>
+                              <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                            </mat-card-header>
+                            <mat-card-content>
+                              <p>This card indeterminates progress bar.</p>
+                              
+                            </mat-card-content>
+                            </mat-card>
+                
+                            <mat-card class="example-card">
+                                <mat-card-header>
+                                  <mat-card-title>Shiba Inu</mat-card-title>
+                                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                </mat-card-header>
+                                <mat-card-content>
+                                  <p>This card indeterminates progress bar.</p>
+                                  
+                                </mat-card-content>
+                                </mat-card>
+                            </div> -->
